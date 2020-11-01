@@ -1,6 +1,9 @@
-*.class
 
+*.class
+*.iml
+.java-version
 # Package Files #
 *.jar
 *.war
 *.ear
+**/target/**
