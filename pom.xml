@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-    <parent>
-        <groupId>org.sonatype.oss</groupId>
-        <artifactId>oss-parent</artifactId>
-        <version>9</version>
-    </parent>
     <modelVersion>4.0.0</modelVersion>
     <groupId>net.jradius</groupId>
     <artifactId>jradius</artifactId>
     <packaging>pom</packaging>
     <name>${project.artifactId}-${project.version}</name>
-    <version>1.1.6-SNAPSHOT</version>
+    <version>1.1.6</version>
     <description>JRadius Client/Server Project</description>
     <url>http://www.coova.org/JRadius</url>
 
@@ -46,8 +41,9 @@
 
     <distributionManagement>
         <repository>
-            <id>ssh-repository</id>
-            <url>file:///tmp/mvn</url>
+            <id>bintray-apereocas-jradius</id>
+            <name>apereocas-jradius</name>
+            <url>https://api.bintray.com/maven/apereocas/jradius/jradius/;publish=1</url>
         </repository>
     </distributionManagement>
 
